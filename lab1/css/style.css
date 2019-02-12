@@ -89,3 +89,10 @@ header {
 .blog_entry_date {
 	margin-top: 5pt;
 }
+
+a {
+	text-decoration: none;
+	color: white;
+	border: 0;
+	outline: 0;
+}
