@@ -11,7 +11,7 @@
  	 <?php 
  		include_once "header.php";
  		include_once "navigation.php";
- 		include_once "content_contacts.php";
+ 		include_once "contents/content_contacts.php";
  		include_once "footer.php";
  	?>
  </body>

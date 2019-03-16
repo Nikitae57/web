@@ -12,7 +12,17 @@
  		include_once "header.php";
  		include_once "navigation.php";
  		include_once "menu.php";
- 		include_once "content_lab1.php";
+ 		if (isset($_GET[content])) {
+ 			$filePath = "contents/" . $_GET[content] . ".php";
+ 			
+ 			if (file_exists($filePath)) {
+				include_once $filePath;
+ 			} else {
+ 				echo "<h1>Такой лаборатоной работы не найдено</h1>";
+ 			}
+		} else {
+			include_once("contents/content_lab1.php");
+		}
  		include_once "footer.php";
  	?>
  </body>
