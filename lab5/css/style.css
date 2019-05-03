@@ -1,0 +1,145 @@
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+}
+
+header {
+	background-color: #282c34;
+	color: #fff;
+	min-height: 7% !important;
+	width: 100%;
+} 
+
+#header_container {
+	display: inline-block;
+	width: 100%;
+	line-height: 50pt;
+}
+
+#header_text {
+	font-size: 16pt;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	line-height: inherit;
+}
+
+#navigation {
+	padding-left: 10pt;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 4.5%;
+	color: #fff;
+	line-height: 30pt;
+	background-color: #636363;
+	margin-top: 0px;
+}
+
+#menu {
+	width: 30%;
+	min-height: 83.5%;
+	float: left;
+	overflow-y: auto;
+}
+
+#content {
+	float: left;
+	width: 70%;
+	height: 83.5%;
+	padding-bottom: 0;
+	background-color: #e0e0e0;
+	overflow-y: auto;
+}
+
+#content_without_menu {
+	float: left;
+	width: 100%;
+	height: 83.5%;
+	padding-bottom: 0;
+	background-color: #e0e0e0;
+	overflow-y: auto;
+}
+
+#footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	color: #e0e0e0;
+	line-height: 40pt;
+	background-color: #282c34;
+	text-align: center;
+}
+
+
+.nav_item {
+	margin-right: 20pt;
+	font-family: sans-serif;
+}
+
+.blog_entry {
+	margin: 5pt;
+	padding: 5pt;
+	border-radius: 5pt;
+	background-color: #e0e0e0;
+}
+
+.blog_entry_date {
+	margin-top: 5pt;
+}
+
+.menu_item {
+	text-decoration: none;
+	color: black;
+	border: 0;
+	outline: 0;
+}
+
+.a_default {
+	text-decoration: underline;
+	color: black;
+	border: 0;
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	border: 0;
+	outline: 0;
+}
+
+.text_content {
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 14pt;
+	text-indent: 20px;	
+}
+
+.text_title {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-indent: 20px;
+}
+
+.image {
+	text-align: center;
+}
+
+#registration_form {
+	text-align: center;
+}
