@@ -1,0 +1,1 @@
+<a href="edit_bio.php">Редактировать</a>
