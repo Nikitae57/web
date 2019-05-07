@@ -25,6 +25,12 @@
 			<p><input type="password" name="password" placeholder="Пароль"></p>
 
 			<p><input type="submit" name="sign_in" value="Войти"></p>
+			<p>
+				<input type="radio" name="auth_way" value="cookie" id="rbtn_cookie" checked="true">
+				<label for="rbtn_cookie">cookie</label>
+				<input type="radio" name="auth_way" value="session" id="rbtn_session">
+				<label for="rbtn_session">session</label>
+			</p>
 		</form>
 	</div>
 </body>

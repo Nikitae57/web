@@ -1,11 +1,10 @@
 <?php  
 	include 'db_connection.php';
+	include 'credentials.php';
 	
-	$username = explode(':', $_COOKIE["MINI_BLOG_SESSION"])[0];
+	$username = getCreds()[0];
 	$bio = $_POST['bio'];
-
-	$query = 
-	"UPDATE user_data
+	$query = "UPDATE user_data
 		SET biography = '$bio'
 		WHERE username = '$username'";
 

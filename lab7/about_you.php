@@ -10,20 +10,15 @@
 <body>
 	<?php
 		include_once "header.php";
-
-		if (!isset($_COOKIE['MINI_BLOG_SESSION'])) {
-			echo "<h1>Произошла ошибка</h1>";
-			exit();
-		}
 		include_once "navigation_logged_in.php";
-		
 		include_once "menu.php";
 		include_once "footer.php";
 
 		include 'db_connection.php';
+		include 'credentials.php';
 		$conn = OpenDbConnection();
 
-		$username = explode(':', $_COOKIE["MINI_BLOG_SESSION"])[0];
+		$username = getCreds()[0];
 		$query = "SELECT biography as b FROM user_data 
 			WHERE username = '$username'";
 

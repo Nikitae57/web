@@ -22,8 +22,8 @@
 	<div id="nav_group_login">
 		<span class="nav_item_login">
 			<?php 
-				$cookie = $_COOKIE["MINI_BLOG_SESSION"];
-				$username = explode(':', $cookie)[0];
+				include 'credentials.php';
+				$username = getCreds()[0];
 				echo $username;
 			?>
 		</span>

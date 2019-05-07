@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	if (isset($_GET[content]) && strpos($_GET[content], "lab") === false) {
 
 		include 'db_connection.php';
@@ -34,15 +35,19 @@
 
 <body>
 	<?php
+		session_start();
 		include 'db_connection.php';
+		include 'credentials.php';
  		$conn = OpenDbConnection();
 		include_once "header.php";
 
-		if (isset($_COOKIE['MINI_BLOG_SESSION'])) {
-			$username = explode(':', $_COOKIE["MINI_BLOG_SESSION"])[0];
+		if (!isset($_COOKIE['MINI_BLOG_SESSION']) && !isset($_SESSION['MINI_BLOG_SESSION'])) {
+			include_once "navigation_logged_out.php";
+		} else {
+			$username = getCreds()[0];
 			$query = "SELECT is_admin FROM user_data 
-				WHERE username = '$username' AND is_admin IS NOT NULL";
-			$result =  $conn -> query($query);
+				WHERE username = '$username' AND is_admin IS NOT NULL AND is_admin != 0";
+			$result = $conn -> query($query);
 	 		$row = mysqli_fetch_assoc($result);
 
 	 		if (mysqli_num_rows($result) > 0) {	
@@ -50,9 +55,7 @@
 	 		} else {
 	 			include_once "navigation_logged_in.php";
 	 		}
-		} else {
-			include_once "navigation_logged_out.php";
-		}		
+		}
 		
 		include_once "menu.php";
 		include_once "footer.php";

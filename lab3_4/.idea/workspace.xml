@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c117ea3e-d8d9-4e7a-803e-cb9b579943c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f54de53a-d7f7-476f-9c28-95558c305cd9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f54de53a-d7f7-476f-9c28-95558c305cd9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,15 +91,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f54de53a-d7f7-476f-9c28-95558c305cd9/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1916" />
-    <option name="width" value="964" />
-    <option name="height" value="1048" />
+    <option name="width" value="1920" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -146,15 +145,16 @@
       <workItem from="1554788445006" duration="1437000" />
       <workItem from="1554791676646" duration="186000" />
       <workItem from="1554791888836" duration="1825000" />
-      <workItem from="1557074452480" duration="4306000" />
+      <workItem from="1557074452480" duration="4495000" />
+      <workItem from="1557208801240" duration="844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7754000" />
+    <option name="totallyTimeSpent" value="8787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="0" width="1928" height="1048" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24944812" />
@@ -186,89 +186,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/lab" />
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/content" />
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data" />
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f54de53a-d7f7-476f-9c28-95558c305cd9/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/content">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f54de53a-d7f7-476f-9c28-95558c305cd9/schema/mydb/table/content">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
