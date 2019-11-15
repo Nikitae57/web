@@ -5,7 +5,9 @@
 	<meta charset="UTF-8">
 	<title>Мини-блог</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+
+
+	<script src="analytics.js"></script></head>
 
 <body>
 	<?php
